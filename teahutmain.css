@@ -4,7 +4,8 @@ html{
 
 body{
 	margin: 0;
-	width: 36rem;
+	margin-left: 4.3rem;
+	/*width: 36rem;*/
 }
 
 a{
@@ -384,11 +385,10 @@ a{
 #editWindow{
 	display: none;
 	position: fixed;
-	width: 60%;
-	height: 500px;
+	width: 50%;
 
 	margin-top: 50px;
-	margin-left: 20%;
+	margin-left: 15%;
 	z-index: 1;
 }
 
@@ -552,4 +552,21 @@ textarea:focus, input:focus{
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+#top{
+	position: fixed;
+	float: right;
+	bottom: 1rem;
+	right: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 2rem;
+	background-color: #c7fcc2;
+	background-image: url('./image/arrow-up.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: .7rem;
+	opacity: 40%;
+	box-shadow: 0 0 0.5rem #ccc;
 }
