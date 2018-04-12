@@ -1,0 +1,19 @@
+{
+  "name": "teahut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TeaHut.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoxieZ/teahut-website.git"
+  },
+  "author": "Roxie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoxieZ/teahut-website/issues"
+  },
+  "homepage": "https://github.com/RoxieZ/teahut-website#readme"
+}
